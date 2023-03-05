@@ -1,0 +1,23 @@
+@media screen and (max-width: 1333px) {
+    .Cardclass {
+        flex-basis: 50% !important;
+        max-width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .addRoom {
+        flex-direction: column;
+        
+    }
+    .addRoom * {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .Cardclass {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+}

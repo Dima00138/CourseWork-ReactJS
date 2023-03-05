@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px) {
+    .TextFieldform {
+        width: 78% !important;
+    }
+    .IconButtonform {
+        width: 8% !important;
+    }
+    .ButtonformInput {
+        width: 14% !important;
+    }
+}
+
+.Chating::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+.Chating::-webkit-scrollbar-track {
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+  }
+  
+.Chating::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+  }
+
+ .Chating {
+    scrollbar-width: 10px;
+    
+  }

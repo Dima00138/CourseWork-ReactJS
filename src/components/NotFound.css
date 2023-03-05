@@ -1,0 +1,158 @@
+.not-found {
+    box-sizing: border-box;
+    font-family: 'Suissy', sans-serif;
+    font-weight: 300;
+    position: relative;
+    padding: 30px 0 0 0;
+}
+
+.not-found::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    z-index: -2;
+    background: linear-gradient(0deg, #F5F9FF, #F5F9FF);
+    width: 100%;
+}
+
+.wrap {
+    max-width: 1217px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+hgroup {
+    text-align: center;
+    margin: 50px 0 30px 0;
+}
+
+.not-found__title {
+    color: #1B2A30;
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.not-found__subtitle {
+    color: #858585;
+    font-size: 32px;
+}
+
+.not-found__picture {
+    position: relative;
+    font-size: 630px;
+    color: #b6c9db;
+    font-weight: 600;
+    z-index: -1;
+}
+
+.not-found__image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.btn {
+    background: #0084D4;
+    border-radius: 4px;
+    padding: 10px 22px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    transition: .3s all;
+}
+
+.not-found__btn {
+    text-decoration: none;
+    position: relative;
+    top: -50px;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 1230px) {
+    .not-found__picture {
+        font-size: 550px;
+    }
+    .not-found__image {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .not-found__picture {
+        font-size: 480px;
+    }
+    .not-found__image {
+        width: 430px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .not-found__picture {
+        font-size: 350px;
+    }
+    .not-found__image {
+        width: 380px;
+    }
+    .btn {
+        top: 50px;
+    }
+    .not-found::before {
+        height: 67%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .not-found__title {
+        font-size: 35px;
+    }
+    .not-found__subtitle {
+        font-size: 28px;
+    }
+    .not-found__picture {
+        font-size: 200px;
+    }
+    .not-found__image {
+        width: 150px;
+    }
+    .btn {
+        top: -10px;
+    }
+    .not-found::before {
+        height: 73%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .not-found__title {
+        font-size: 28px;
+    }
+    .not-found__subtitle {
+        font-size: 22px;
+    }
+    .not-found__picture {
+        font-size: 150px;
+    }
+    .not-found__image {
+        width: 110px;
+    }
+    .btn {
+        top: 0px;
+        font-size: 15px;
+    }
+    .not-found::before {
+        height: 73%;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .breadcrumbs-wrap {
+        margin: 0 30px 32px 30px;
+    }
+}
