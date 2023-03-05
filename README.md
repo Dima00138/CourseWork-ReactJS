@@ -3,7 +3,7 @@
 This is a course project on creating a single-page Javascript application using the ReactJS,
 Redux and firebase libraries, as well as other auxiliary libraries.
 
-![Code lines](https://img.shields.io/tokei/lines/github/Dima00138/CourseWork-ReactJS)
+![Lines of code](https://img.shields.io/tokei/lines/github/Dima00138/CourseWork-ReactJS)
 
 ### `npm start`
 
