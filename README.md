@@ -1,3 +1,8 @@
+# `CourseWork-ReactJS`
+
+This is a course project on creating a single-page Javascript application using the ReactJS,
+Redux and firebase libraries, as well as other auxiliary libraries.
+
 ### `npm start`
 
 Runs the app in the development mode.\
